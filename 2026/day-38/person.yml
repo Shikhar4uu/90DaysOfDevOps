@@ -1,0 +1,14 @@
+---
+name: Shikhar Kotnala
+role: DevOps Engineer
+experience_years: 3
+learning: true
+
+tools:
+  -linux
+  -Git
+  -Jenkins
+  -Docker
+  -Kubernetes
+
+hobbies: [coding, traveling, cooking, gaming]

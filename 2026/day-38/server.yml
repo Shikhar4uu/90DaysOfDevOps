@@ -1,0 +1,24 @@
+---
+server:
+  name: "devops-server"
+  ip: 192.168.1.10
+  port: 8080
+
+database:
+  host: "localhost"
+  name: "devops_db"
+  credentials:
+    username: "batman4u"
+    password: "password123"
+
+startup_script: |
+  #!/bin/bash
+  echo "Starting server..."
+  sudo systemctl start nginx
+  echo "Server started successfully."
+
+startup_script_folded: >
+  This is a devops server.
+  It is used for testing
+  and development purposes.
+  and it is configured with nginx and a database.
